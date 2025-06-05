@@ -10,26 +10,26 @@ A modular movie recommendation system built with Python, Streamlit, and Hugging 
 ## Setup Instructions
 
 ### 1. Clone the Repository:
-  ```bash
+```bash
 	git clone https://github.com/your-username/movie-recommender.git
 	cd movie-recommendation-system
-	```
+```
 ### 2. Download MovieLens Dataset:
 - Download the MovieLens 10M dataset from https://grouplens.org/datasets/movielens/10m/.
 - Place movies.dat, ratings.dat, and tags.dat in the data/ directory.
 
 ### 3. Install Dependencies:
-  ```bash
+```bash
 	pip install -r requirements.txt
-	```
+```
 
 ### 4. Run Precomputation:
-	```bash
+```bash
 	python src\precompute.py
-	```
+```
 	
 ### 5. Run the Streamlit App:
-	```bash
+```bash
 	streamlit run src\app.py
-	```
+```
 
